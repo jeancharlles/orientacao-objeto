@@ -3,4 +3,3 @@ arquivo.write('banana\n')
 arquivo.write('melancia\n')
 arquivo.write('maracujá\n')
 arquivo.close()
-

@@ -57,3 +57,14 @@ class Conta:
 
     def pega_saldo(self):
         return self.saldo
+
+
+if __name__ == '__main__':
+    cliente = Cliente('João', 'Silva', '123')
+    conta = Conta(1, cliente, 100)
+    print(f'Cliente: {cliente.nome} {cliente.sobrenome}')
+    print(f'CPF: {cliente.cpf}')
+    print(f'Limite: {conta.limite}')
+    print(f'Nº Conta: {conta.numero}')
+    print(f'Saldo: {conta.saldo}')
+    print(f'Limite: {conta.limite}')
