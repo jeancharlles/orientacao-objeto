@@ -33,7 +33,7 @@ if __name__ == '__main__':
     compra.inserir_produto(p1)
     compra.inserir_produto(p2)
     compra.inserir_produto(p3)
-    compra.lista_produtos()
+
     p4 = Produto('café', 3)
     compra.inserir_produto(p4)
     compra.lista_produtos()
